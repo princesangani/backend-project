@@ -67,5 +67,5 @@ exports.getDashboard = (req, res) => {
   res.json({
     user: {id,name,email }
    
-  });localStorage
+  });
 };
